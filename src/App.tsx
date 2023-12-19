@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
 import Router from 'component/Router';
-
+import Layout from "component/Layout";
 function App() {
     return<>
-        <Router/>
+        <Layout>
+            <Router/>
+        </Layout>
         </>
 }
 
