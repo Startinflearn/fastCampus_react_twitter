@@ -1,4 +1,5 @@
 import React, {ReactNode} from 'react';
+import MenuList from "component/Menu";
 
 interface LayoutProps {
     children : ReactNode
@@ -6,9 +7,10 @@ interface LayoutProps {
 const Layout = ({children} : LayoutProps) => {
     return (
         <div>
-            <div className="layout">{
-                children
-            }</div>
+            <div className="layout">
+                {children}
+                <MenuList/>
+            </div>
         </div>
     );
 };
