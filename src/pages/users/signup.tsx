@@ -1,11 +1,8 @@
 import React from 'react';
+import SignupForm from "component/users/SignupForm";
 
 const Singup = () => {
-    return (
-        <div>
-            Singup
-        </div>
-    );
+    return <SignupForm/>
 };
 
 export default Singup;
